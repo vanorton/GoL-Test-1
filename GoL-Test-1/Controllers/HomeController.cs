@@ -16,14 +16,6 @@ namespace GoL_Test_1.Controllers
         }
 
         [HttpPost]
-        public void Test1(string name, Coordinates[] items)
-        {
-            var test = items;
-            IEnumerable<Coordinates> test3 = items;
-            var test2 = 0;
-        }
-
-        [HttpPost]
         public void Start(string name, Coordinates[] coordinates)
         {
             IEnumerable<Coordinates> startValues = coordinates;
